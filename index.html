@@ -17,32 +17,43 @@
 
 <body>
     <!--header-->
-    <header class="container-fluid">
-        <div class="row h-100 align-items-center ">
-            <div class="col text-star flex-grow-1 ">
-                <h1>START BOOTSTRAP</h1>
-            </div>
-            <div class="col text-end d-md-none">
-                <i class="bi bi-list display-5 d-none"></i>
-                <ul class="d-flax d-none d-md-inline ">
-                    <li>PORTFOLIO</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-dark header">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav text-with">
+                  <li class="nav-item">
+                    <a class="nav-link active  " aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active " href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">CONTACT</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
     <!--main-->
     <div class="bgc-1ABC9C">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-12">
-                    <img class="" src="" alt="">
+                <div class="col-12  jambotron">
+                    <img  src="img/avatar.svg" alt="">
+                </div>
+                <div class="col-12 text-center ">
+                    <h3 class="text-white">START BOOTSTRAP</h3>
                 </div>
                 <div class="col-12">
-                    <img src="" alt="">
                 </div>
-                <div class="col-12">
+                <div class="col-12 text-center">
+                    <p class="text-white">GRAPHIC ARTIS-WEB DESIGNER-ILLUSTRATOR</p>
                 </div>
             </div>
         </div>
@@ -51,13 +62,25 @@
         <div class="container">
             <div class="row g-2">
                 <div class="col-12"></div>
-                <div class="col-12"></div>
-                <div class="col-12 bgc-BA4B63 col-md-6 col-lg-4"></div>
-                <div class="col-12 bgc-1EA4B6 col-md-6 col-lg-4"></div>
-                <div class="col-12 bgc-140F0F col-md-6 col-lg-4"></div>
-                <div class="col-12 bgc-1C83C1 col-md-6 col-lg-4"></div>
-                <div class="col-12 bgc-0E38B5 col-md-6 col-lg-4"></div>
-                <div class="col-12 bgc-CCB2A3 col-md-6 col-lg-4"></div>
+
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="">
+                </div>
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img class="rounded-2" src="img/cake.png" alt="">
+                </div>
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img class="rounded-2" src="img/circus.png" alt="">
+                </div>
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img class="rounded-2" src="img/game.png" alt="">
+                </div>
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img class="rounded-2" src="img/safe.png" alt="">
+                </div>
+                <div class="col-12  col-md-6 col-lg-4">
+                    <img class="rounded-2" src="img/submarine.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -66,27 +89,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h2>lorem</h2>
+                        <h2></h2>
                     </div>
                     <div class="col-12 text-center">-------</div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 offset-lg-1 col-lg-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odio cumque ipsa ipsam sunt
                             placeat veritatis corporis? Vero, nam vel sed a quasi nobis maiores tempore adipisci. Omnis,
                             at ipsa.</p>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6  col-lg-5">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati hic, quasi velit rem
                             earum laboriosam vel nemo, repellat blanditiis odio magnam est amet ab. Sint rerum sequi
                             quia laboriosam quos!</p>
                     </div>
                     <div class="col-12  text-center ">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Donwload</a>
+                        <button type="button" class="btn btn-outline-secondary border-white .bgc-1ABC9C text-white">Download</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="container">
         <div class="row">
             <div class="col-12 text-center">
                 <h2>contact me</h2>
@@ -94,37 +117,38 @@
             <div class="col-12  text-center">
                 ----
             </div>
-            <div class="col-10 offset-2">
+            <div class="col-9 offset-3">
                 name
             </div>
-            <div class="col-10 offset-2">
+            <div class="col-9 offset-3">
                 name
             </div>
-            <div class="col-10 offset-2">
+            <div class="col-9 offset-3">
                 name
             </div>
-            <div class="col-10 msg offset-2">
+            <div class="col-9 msg offset-3">
                 name
             </div>
-            <div class="col-10 offset-2">
+            <div class="col-9 offset-3">
                 <a href="">send</a>
             </div>
         </div>
     </div>
     <!--footer-->
     <div class="bgc-3A546D">
-        <div class="row">
-            <div class="col-12 text-center col-md-4 ">
-                <h6>location</h6>
-            </div>
-            <div class="col-12 text-center col-md-4 ">
-                <h6>Around to web</h6>
-            </div>
-            <div class="col-12 text-center col-md-4 ">
-                <h6>about freelencer</h6>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center col-md-4 ">
+                    <h6>location</h6>
+                </div>
+                <div class="col-12 text-center col-md-4 ">
+                    <h6>Around to web</h6>
+                </div>
+                <div class="col-12 text-center col-md-4 ">
+                    <h6>about freelencer</h6>
+                </div>
             </div>
         </div>
-
     </div>
     <div class="bgc-2C3E50">
     </div>

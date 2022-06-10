@@ -1,47 +1,21 @@
-header {
-    height: 80px;
+header {    
     background-color: #2C3E50;
 }
-.bgc-1ABC9C{
-    height: 300px;
-    background-color:#1ABC9C;
+img{
+    width: 100%;
 }
-.bgc-BA4B63{
-    background-color: #BA4B63;
-    height: 200px;
+.jambotron{
+    width: 50%;
 }
-.bgc-1EA4B6{
-    background-color: #1EA4B6;
-    height: 200px;
-}
-.bgc-140F0F{
-    background-color: #140F0F;
-    height: 200px;
-}
-.bgc-1C83C1{
-    background-color: #1C83C1;
-    height: 200px;
-}
-.bgc-0E38B5{
-    background-color: #0E38B5;
-    height: 200px;
-}
-.bgc-CCB2A3{
-    background-color: #CCB2A3;
-    height: 200px;
+.bgc-2C3E50{
+    background-color: #2C3E50;
+    height: 80px;
 }
 .bgc-1ABC9C{
     background-color: #1ABC9C;
     height: 100%;
 }
-.msg{
-    height: 100px;
-}
 .bgc-3A546D{
     background-color: #3A546D;
     height: 100%;
-}
-.bgc-2C3E50{
-    background-color: #2C3E50;
-    height: 80px;
 }
